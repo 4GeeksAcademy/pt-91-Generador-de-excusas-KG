@@ -17,14 +17,14 @@ const whatDoYouWantToAvoid = [
   "my phone",
   "my shoes",
   "my book",
-  "my video game"
+  "my video game",
 ];
 const when = [
   "yesterday",
   "last night",
   "this morning",
   "last week",
-  "last month"
+  "last month",
 ];
 
 function excuseGenerator() {

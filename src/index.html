@@ -14,11 +14,15 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Generador de excusas</h1>
-      <p id="excusa" class="alert alert-warning mt-4">
-        Presiona el botón para generar una excusa
-      </p>
-
+      <h1 class="mt-5">Excuse generator</h1>
+      <p id="excusa" class="alert alert-warning mt-4"></p>
+      <button
+        id="generateExcuse"
+        class="btn btn-primary mt-3"
+        onclick="generateExcuse()"
+      >
+        Generate Excuse
+      </button>
       <div class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>

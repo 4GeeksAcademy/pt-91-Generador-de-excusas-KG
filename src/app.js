@@ -23,6 +23,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let randomWhat = Math.floor(Math.random() * what.length);
     let randomWhen = Math.floor(Math.random() * when.length);
 
-    return randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
+    return (
+      who[randomWho] +
+      " " +
+      action[randomAction] +
+      " " +
+      what[randomWhat] +
+      " " +
+      when[randomWhen]
+    );
   }
 });

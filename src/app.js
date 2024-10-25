@@ -18,4 +18,3 @@ function generateExcuse() {
   const whenIndex = Math.floor(Math.random() * when.length);
   console.log(who[whoIndex] + " " + action[actionIndex] + " " + what[whatIndex] + " " + when[whenIndex]);
   return (who[whoIndex] + " " + action[actionIndex] + " " + what[whatIndex] + " " + when[whenIndex]);
-}

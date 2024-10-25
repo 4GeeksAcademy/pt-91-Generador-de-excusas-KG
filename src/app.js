@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.excuseGenerator = function() {
     const excuse = generateExcuse();
-    excuseParagraph.textContent = excuse;
+    excuseParagraph.innerHTML = excuse;
   };
 
   function generateExcuse() {
